@@ -5,6 +5,7 @@ USE
 
 -- Clean The Dataset And Format --
 ----------------------------------
+
 -- Remove the comma --
 UPDATE CryptoData
 SET 
@@ -45,7 +46,52 @@ SET
 ALTER TABLE CryptoData
 ALTER COLUMN Market_Cap BIGINT;
 
--- Trends over time --  
+-- Project Questions --  
 ----------------------
+-- What are the cryptocurrencies do the list has? --
+-- How the prices of cryptocurrencies are changing over time? --
+-- What is the volatilities between each currencies? (Difference between High and Low) --
+-- Provide some insights about trading volume of different cryptocurrencies --
+-- Which cryptocurrencies are the top performing cryptocurrencies? --
+-- Is there any correlation between different cryptocurrencies? --
+-- Is there any seasonal pattern in the cryptocurrencies? --
 
+-- What are the cryptocurrencies do the list has? --
+SELECT Currency
+FROM CryptoData
+GROUP BY Currency
+-- We have bitcoin-cash, ethereum, bitcoin, tether, litecoin, xrp, binance-coin, stellar, eos, tezos, cardano, bitcoin-sv as cryptocurrencies --
+
+-- How the prices of ethereum are changing over time? (similar for other currencies) --
+SELECT Date, [Close]
+FROM CryptoData
+WHERE Currency = 'ethereum'
+ORDER BY Date
+-- As we can see, the cryptocurrencies are extreamly volatile over time. 
+
+-- What is the volatilities between each currencies? (Difference between High and Low) --
+SELECT
+    Currency,
+    SQRT(AVG(POWER(High - Low, 2))) AS Volatility
+FROM
+    CryptoData
+GROUP BY
+    Currency
+ORDER BY
+    Volatility 
+    DESC
+-- Bitcoin has the maximum volatility -> 398.44
+
+
+
+
+
+
+
+
+
+
+
+SELECT *
+FROM CryptoData
 
