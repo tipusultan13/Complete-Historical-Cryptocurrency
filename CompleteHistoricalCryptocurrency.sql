@@ -54,7 +54,6 @@ ALTER COLUMN Market_Cap BIGINT;
 -- Provide some insights about trading volume of different cryptocurrencies --
 -- Which cryptocurrencies are the top performing cryptocurrencies? --
 -- Is there any correlation between different cryptocurrencies? --
--- Is there any seasonal pattern in the cryptocurrencies? --
 
 -- What are the cryptocurrencies do the list has? --
 SELECT Currency
@@ -81,6 +80,71 @@ ORDER BY
     Volatility 
     DESC
 -- Bitcoin has the maximum volatility -> 398.44
+
+-- Provide some insights about trading volume of different cryptocurrencies --
+-- Maximum Trading Volume for Each Currency --
+SELECT
+    Currency,
+    MAX(Volume) AS MaxVolume
+FROM
+    CryptoData
+GROUP BY
+    Currency
+ORDER BY MaxVolume
+    DESC
+-- Tether has the maximum volume --
+
+-- Average Trading Volume for Each Currency --
+SELECT
+    Currency,
+    AVG(Volume) AS AverageVolume
+FROM
+    CryptoData
+GROUP BY
+    Currency
+ORDER BY
+    AverageVolume
+    DESC
+-- Bitcoin has the maximum average volume --
+
+-- Which cryptocurrencies are the top performing cryptocurrencies? --
+-- Top Performing Based on Market Capitalization --
+SELECT
+    Currency,
+    MAX(Market_cap) AS MaxMarketCap
+FROM
+    CryptoData
+GROUP BY
+    Currency
+ORDER BY
+    MaxMarketCap 
+    DESC
+-- Bitcoin is the top performing Cryptocurrencies based on market capitalization --
+
+-- Is there any correlation between different cryptocurrencies? --
+
+SELECT
+    A.Currency AS Currency1,
+    B.Currency AS Currency2,
+    (SUM(A.[Close] * B.[Close]) - COUNT(*) * AVG(A.[Close]) * AVG(B.[Close])) /
+    (SQRT((SUM(A.[Close] * A.[Close]) - COUNT(*) * AVG(A.[Close]) * AVG(A.[Close])) * (SUM(B.[Close] * B.[Close]) - COUNT(*) * AVG(B.[Close]) * AVG(B.[Close])))) AS Correlation
+FROM
+    CryptoData A
+JOIN
+    CryptoData B ON A.Currency < B.Currency
+GROUP BY
+    A.Currency, B.Currency
+ORDER BY
+    Currency1, Currency2;
+    DESC
+-- the correlations are extreamly small. Hence we conclude that the currencies are independent --
+
+
+
+
+
+
+
 
 
 
