@@ -66,6 +66,10 @@ SELECT Date, [Close]
 FROM CryptoData
 WHERE Currency = 'ethereum'
 ORDER BY Date
+-- For All the Currencies --
+SELECT Currency, [Date], [Close]
+FROM CryptoData
+ORDER BY [Date]
 -- As we can see, the cryptocurrencies are extreamly volatile over time. 
 
 -- What is the volatilities between each currencies? (Difference between High and Low) --
@@ -135,7 +139,7 @@ JOIN
 GROUP BY
     A.Currency, B.Currency
 ORDER BY
-    Currency1, Currency2;
+    Currency1, Currency2
     DESC
 -- the correlations are extreamly small. Hence we conclude that the currencies are independent --
 
