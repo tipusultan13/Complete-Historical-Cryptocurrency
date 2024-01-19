@@ -142,6 +142,6 @@ GROUP BY
 ORDER BY
     Currency1, Currency2
     DESC
--- the correlations are extreamly small. Hence we conclude that the currencies are independent --
+-- the correlations are extreamly small. Hence we could not define the dependent --
 
 
