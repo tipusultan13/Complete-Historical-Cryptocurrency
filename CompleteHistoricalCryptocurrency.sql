@@ -61,15 +61,16 @@ FROM CryptoData
 GROUP BY Currency
 -- We have bitcoin-cash, ethereum, bitcoin, tether, litecoin, xrp, binance-coin, stellar, eos, tezos, cardano, bitcoin-sv as cryptocurrencies --
 
--- How the prices of ethereum are changing over time? (similar for other currencies) --
-SELECT Date, [Close]
-FROM CryptoData
-WHERE Currency = 'ethereum'
-ORDER BY Date
+-- How the prices of currencies are changing over time? --
 -- For All the Currencies --
 SELECT Currency, [Date], [Close]
 FROM CryptoData
 ORDER BY [Date]
+-- For a specific currncies --
+SELECT Date, [Close]
+FROM CryptoData
+WHERE Currency = 'ethereum'
+ORDER BY Date
 -- As we can see, the cryptocurrencies are extreamly volatile over time. 
 
 -- What is the volatilities between each currencies? (Difference between High and Low) --
@@ -143,23 +144,4 @@ ORDER BY
     DESC
 -- the correlations are extreamly small. Hence we conclude that the currencies are independent --
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-SELECT *
-FROM CryptoData
 
