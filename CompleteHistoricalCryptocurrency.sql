@@ -145,3 +145,5 @@ ORDER BY
 -- the correlations are extreamly small. Hence we could not define them as dependent --
 
 
+SELECT *
+FROM CryptoData
