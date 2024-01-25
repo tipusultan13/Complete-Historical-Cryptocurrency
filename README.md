@@ -30,5 +30,14 @@ The data has the following cryptocurrency:
 
 <img width="154" alt="Screenshot 2024-01-25 at 09 27 20" src="https://github.com/tipusultan13/Cryptocurrency-History-Over-Time/assets/156308034/59f94f49-d969-4862-be3b-6af22873c8e4">
 
+### 2. How are the prices of cryptocurrencies changing over time?
+1. The Price of Bitcoin changed the maximum.
+2. The price of Bitcoin cash changed, but compared to Bitcoin, it did not increase much.
+3. The other cryptocurrencies almost did not increase over time.
+<img width="843" alt="Screenshot 2024-01-25 at 09 31 18" src="https://github.com/tipusultan13/Cryptocurrency-History-Over-Time/assets/156308034/1290b8c2-f31e-477a-a463-1e9f73443a53">
+
+### 3. What are the volatilities between each currency? (Difference between High and Low)
+
+
 
 
