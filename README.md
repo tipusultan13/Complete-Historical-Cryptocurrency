@@ -22,7 +22,6 @@ Click [here](https://www.kaggle.com/datasets/philmohun/cryptocurrency-financial-
 3. What are the volatilities between each currency? (Difference between High and Low)
 4. Provide some insights about the trading volume of different cryptocurrencies
 5. Which cryptocurrencies are the top-performing cryptocurrencies?
-6. Is there any correlation between different cryptocurrencies?
 
 ## 5. Findings
 ### 1. What are the cryptocurrencies do the list has?
@@ -53,6 +52,11 @@ The data has the following cryptocurrency:
 2. Even if Tetherium is in the second position, compared to Bitcoin, it has half the market value of Bitcoin.
 
 <img width="424" alt="Screenshot 2024-01-25 at 09 47 29" src="https://github.com/tipusultan13/Cryptocurrency-History-Over-Time/assets/156308034/9ab15aba-f99a-48c7-babf-e6cdf98c5bc5">
+
+## 6. Discussion
+This project delves into the dynamic cryptocurrency market, highlighting key findings and trends. Bitcoin dominates market capitalization and price fluctuations over time, while Bitcoin Cash shows comparatively modest changes. Volatility is highest in Bitcoin, Ethereum, and Bitcoin Cash. Tether leads in absolute trading volume, while Bitcoin maintains the highest average volume. Tezos presents challenges with minimal average trading volume. Market capitalization rankings confirm Bitcoin as the top-performing cryptocurrency. Correlation analysis suggests minimal interdependence between cryptocurrencies. These insights empower stakeholders for informed decision-making in this evolving landscape.
+
+Check the whole dashboard [here](https://public.tableau.com/app/profile/tipusultan13/viz/CryptocurrencyHistoryOverTime/Dashboard1)
 
 
 
