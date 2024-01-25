@@ -16,4 +16,19 @@ In this cryptocurrency data analysis project sourced from Kaggle, the dataset co
 Click [here](https://www.kaggle.com/datasets/philmohun/cryptocurrency-financial-data) to check the data.
 <img width="737" alt="Screenshot 2024-01-25 at 09 21 01" src="https://github.com/tipusultan13/Cryptocurrency-History-Over-Time/assets/156308034/7e2bd23a-55b3-4f62-8b0f-697359397c9d">
 
+## 3. Research Questions
+1. What are the cryptocurrencies do the list has?
+2. How are the prices of cryptocurrencies changing over time?
+3. What are the volatilities between each currency? (Difference between High and Low)
+4. Provide some insights about the trading volume of different cryptocurrencies
+5. Which cryptocurrencies are the top-performing cryptocurrencies?
+6. Is there any correlation between different cryptocurrencies?
+
+## 5. Findings
+### 1. What are the cryptocurrencies do the list has?
+The data has the following cryptocurrency:
+
+<img width="154" alt="Screenshot 2024-01-25 at 09 27 20" src="https://github.com/tipusultan13/Cryptocurrency-History-Over-Time/assets/156308034/59f94f49-d969-4862-be3b-6af22873c8e4">
+
+
 
