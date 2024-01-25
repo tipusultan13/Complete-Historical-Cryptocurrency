@@ -37,6 +37,14 @@ The data has the following cryptocurrency:
 <img width="843" alt="Screenshot 2024-01-25 at 09 31 18" src="https://github.com/tipusultan13/Cryptocurrency-History-Over-Time/assets/156308034/1290b8c2-f31e-477a-a463-1e9f73443a53">
 
 ### 3. What are the volatilities between each currency? (Difference between High and Low)
+1. The volatility rate of Bitcoin is the maximum following after Ethereum and Bitcoin Cash.
+2. Compared to Bitcoin, the volatility of other cryptocurrencies is significantly marginal.
+
+<img width="498" alt="Screenshot 2024-01-25 at 09 37 28" src="https://github.com/tipusultan13/Cryptocurrency-History-Over-Time/assets/156308034/ed496d93-d09e-4f47-a17c-837f99fefc8d">
+
+### 4. Provide some insights about the trading volume of different cryptocurrencies
+
+
 
 
 
