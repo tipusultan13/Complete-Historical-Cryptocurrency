@@ -43,6 +43,18 @@ The data has the following cryptocurrency:
 <img width="498" alt="Screenshot 2024-01-25 at 09 37 28" src="https://github.com/tipusultan13/Cryptocurrency-History-Over-Time/assets/156308034/ed496d93-d09e-4f47-a17c-837f99fefc8d">
 
 ### 4. Provide some insights about the trading volume of different cryptocurrencies
+1. Tether has the maximum volume. However, Bitcoin has the maximum average volume.
+2. Tezos has almost zero average trading volume.
+
+<img width="626" alt="Screenshot 2024-01-25 at 09 42 27" src="https://github.com/tipusultan13/Cryptocurrency-History-Over-Time/assets/156308034/c493f3d1-f914-4f44-9d75-9849f9097602">
+
+### 5. Which cryptocurrencies are the top-performing cryptocurrencies?
+1. Based on the Market Capitalization, Bitcoin is the top-performing.
+2. Even if Tetherium is in the second position, compared to Bitcoin, it has half the market value of Bitcoin.
+
+<img width="424" alt="Screenshot 2024-01-25 at 09 47 29" src="https://github.com/tipusultan13/Cryptocurrency-History-Over-Time/assets/156308034/9ab15aba-f99a-48c7-babf-e6cdf98c5bc5">
+
+
 
 
 
