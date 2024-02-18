@@ -56,7 +56,7 @@ The data has the following cryptocurrency:
 ## 6. Discussion
 This project delves into the dynamic cryptocurrency market, highlighting key findings and trends. Bitcoin dominates market capitalization and price fluctuations over time, while Bitcoin Cash shows comparatively modest changes. Volatility is highest in Bitcoin, Ethereum, and Bitcoin Cash. Tether leads in absolute trading volume, while Bitcoin maintains the highest average volume. Tezos presents challenges with minimal average trading volume. Market capitalization rankings confirm Bitcoin as the top-performing cryptocurrency. Correlation analysis suggests minimal interdependence between cryptocurrencies. These insights empower stakeholders for informed decision-making in this evolving landscape.
 
-Check the whole dashboard [here](https://public.tableau.com/app/profile/tipusultan13/viz/CryptocurrencyHistoryOverTime/Dashboard1)
+# Check the whole dashboard [here](https://public.tableau.com/app/profile/tipusultan13/viz/CryptocurrencyHistoryOverTime/Dashboard1)
 
 
 
