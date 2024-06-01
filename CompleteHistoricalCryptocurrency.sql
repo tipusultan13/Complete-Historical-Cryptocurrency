@@ -46,6 +46,8 @@ SET
 ALTER TABLE CryptoData
 ALTER COLUMN Market_Cap BIGINT;
 
+SELECT TOP 2 * FROM CryptoData
+
 -- Project Questions --  
 ----------------------
 -- What are the cryptocurrencies do the list has? --
